@@ -1,0 +1,34 @@
+\begin{thebibliography}{}
+\providecommand\natexlab[1]{#1}
+\providecommand\JournalTitle[1]{#1}
+
+\bibitem[{{Lintott} {et~al.}(2008){Lintott}, {Schawinski}, {Slosar}, {Land},
+  {Bamford}, {Thomas}, {Raddick}, {Nichol}, {Szalay}, {Andreescu}, {Murray}, \&
+  {Vandenberg}}]{lin08}
+{Lintott}, C.~J., {Schawinski}, K., {Slosar}, A., {et~al.} 2008,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2008.13689.x}{\JournalTitle{\mnras},
+  389, 1179}
+
+\bibitem[{{Snyder} {et~al.}(2015){Snyder}, {Torrey}, {Lotz}, {Genel},
+  {McBride}, {Vogelsberger}, {Pillepich}, {Nelson}, {Sales}, {Sijacki},
+  {Hernquist}, \& {Springel}}]{sny15}
+{Snyder}, G.~F., {Torrey}, P., {Lotz}, J.~M., {et~al.} 2015,
+  \href{http://dx.doi.org/10.1093/mnras/stv2078}{\JournalTitle{\mnras}, 454,
+  1886}
+
+\bibitem[{{Torrey} {et~al.}(2015){Torrey}, {Snyder}, {Vogelsberger}, {Hayward},
+  {Genel}, {Sijacki}, {Springel}, {Hernquist}, {Nelson}, {Kriek}, {Pillepich},
+  {Sales}, \& {McBride}}]{tor15}
+{Torrey}, P., {Snyder}, G.~F., {Vogelsberger}, M., {et~al.} 2015,
+  \href{http://dx.doi.org/10.1093/mnras/stu2592}{\JournalTitle{\mnras}, 447,
+  2753}
+
+\bibitem[{{Willett} {et~al.}(2013){Willett}, {Lintott}, {Bamford}, {Masters},
+  {Simmons}, {Casteels}, {Edmondson}, {Fortson}, {Kaviraj}, {Keel}, {Melvin},
+  {Nichol}, {Raddick}, {Schawinski}, {Simpson}, {Skibba}, {Smith}, \&
+  {Thomas}}]{wil13}
+{Willett}, K.~W., {Lintott}, C.~J., {Bamford}, S.~P., {et~al.} 2013,
+  \href{http://dx.doi.org/10.1093/mnras/stt1458}{\JournalTitle{\mnras}, 435,
+  2835}
+
+\end{thebibliography}

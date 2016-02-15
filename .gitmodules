@@ -1,0 +1,3 @@
+[submodule "sunpy"]
+	path = sunpy
+	url = git@github.com:willettk/sunpy.git
