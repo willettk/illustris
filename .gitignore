@@ -67,3 +67,4 @@ target/
 *.dvi
 *.out
 *.synctex.gz
+*Notes.bib
