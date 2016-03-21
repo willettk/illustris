@@ -30,18 +30,29 @@ Crowdsourced classifications of Illustris synthetic images \citep{sny15,tor15} u
 
 \section{Data}
 
+\subsection{Image creation}\label{ssec:image_creation}
+
+The majority of the details for the mock stellar image creation are given in \citet{tor15} and \citet{sny15}. 
+
+For Galaxy Zoo, the individual pixel values of the \textsc{SUNRISE} \citep{jon06a,jon10} output and SDSS mosaics were added together in the same units after correctly matching the pixel sizes.  No other noise scalings or additional shot noise were introduced. Foreground and background objects in the SDSS images are treated identically, since the lack of accurate distances for all objects makes it impossible to place them at the correct ``depth'' with respect to overlapping sources. 
+
+The positions of the backgrounds are ``semi-random'' within a large SDSS field centered at $\alpha=XX.XXX,\delta=YY.YYY$ and a size of $\sim ZZ$~deg$^2$. We added a simple procedure to avoid positioning bright stars and other artifacts near the centers of the cutouts. 
+
+\subsection{Galaxy Zoo classification}
 As of 15 Feb 2016, there have been 17,046 images classified in GZ-Illustris. 
 
 The total Illustris sample has 110,256 images. That's from 6,891 unique galaxies using a mass-limited sample from the $z=0$ slice in the Illustris-1 simulation \citep{vog14a}. Each galaxy has 16 corresponding composite images --- 1~galaxy $\times$ 4~camera angles $\times$ 4~randomly-selected backgrounds. The total set of images is split into three groups:
 
 \begin{itemize}
 
-\item fixed\_mass (10,832~galaxies) --- I selected two narrow mass ranges (low and high) and then selected images with all camera angles and backgrounds within it. This is for analyzing the effect of viewing angle and background on morphological accuracy.
-\item fixed\_view (6,214~galaxies) --- these span the full mass range of the sample, but with only 1~camera angle and background per galaxy. This is for doing an initial survey of the morphological distributions. The reason that this isn't 6,891 is because several hundred of the images were already classified in fixed\_mass.
-\item full\_sample (93,210~galaxies) --- all the rest.
+\item {\tt fixed\_mass} (10,832~galaxies) --- I selected two narrow mass ranges (low and high) and then selected images with all camera angles and backgrounds within it. This is for analyzing the effect of viewing angle and background on morphological accuracy.
+\item {\tt fixed\_view} (6,214~galaxies) --- these span the full mass range of the sample, but with only 1~camera angle and background per galaxy. This is for doing an initial survey of the morphological distributions. The reason that this isn't 6,891 is because several hundred of the images were already classified in {\tt fixed\_mass}.
+\item {\tt full\_sample} (93,210~galaxies) --- all the rest.
 
 \end{itemize}
-Both the fixed\_view and fixed\_mass samples have just been completed at 40~classifications each. Illustris is now paused, so the full\_sample doesn't have any classifications yet. 
+
+
+Both the {\tt fixed\_view} and {\tt fixed\_mass} samples were completed by Feb~2016 at 40~classifications each. GZ-Illustris is now paused, so the {\tt full\_sample} doesn't have any classifications yet. 
 
 \section{Analysis}
 

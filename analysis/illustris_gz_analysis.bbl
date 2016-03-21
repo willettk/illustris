@@ -2,6 +2,16 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\JournalTitle[1]{#1}
 
+\bibitem[{{Jonsson}(2006)}]{jon06a}
+{Jonsson}, P. 2006,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2006.10884.x}{\JournalTitle{\mnras},
+  372, 2}
+
+\bibitem[{{Jonsson} {et~al.}(2010){Jonsson}, {Groves}, \& {Cox}}]{jon10}
+{Jonsson}, P., {Groves}, B.~A., \& {Cox}, T.~J. 2010,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2009.16087.x}{\JournalTitle{\mnras},
+  403, 17}
+
 \bibitem[{{Lintott} {et~al.}(2008){Lintott}, {Schawinski}, {Slosar}, {Land},
   {Bamford}, {Thomas}, {Raddick}, {Nichol}, {Szalay}, {Andreescu}, {Murray}, \&
   {Vandenberg}}]{lin08}
@@ -26,8 +36,8 @@
 \bibitem[{{Vogelsberger} {et~al.}(2014){Vogelsberger}, {Genel}, {Springel},
   {Torrey}, {Sijacki}, {Xu}, {Snyder}, {Nelson}, \& {Hernquist}}]{vog14a}
 {Vogelsberger}, M., {Genel}, S., {Springel}, V., {et~al.} 2014,
-  \JournalTitle{ArXiv e-prints},
-  \href{http://arxiv.org/abs/1405.2921}{{\sffamily arXiv:1405.2921}}
+  \href{http://dx.doi.org/10.1093/mnras/stu1536}{\JournalTitle{\mnras}, 444,
+  1518}
 
 \bibitem[{{Willett} {et~al.}(2013){Willett}, {Lintott}, {Bamford}, {Masters},
   {Simmons}, {Casteels}, {Edmondson}, {Fortson}, {Kaviraj}, {Keel}, {Melvin},
